@@ -25,13 +25,15 @@
   "homepage": "https://github.com/moritzmorgenroth/react-native-toolset#readme",
   "dependencies": {
     "apollo-boost": "^0.1.15",
-    "babel-jest": "23.2.0",
-    "babel-preset-react-native": "^5.0.0",
     "babel-eslint": "^8.2.5",
+    "babel-jest": "23.2.0",
     "babel-plugin-graphql-tag": "^1.6.0",
+    "babel-preset-react-native": "^5.0.0",
     "eslint": "^5.0.1",
     "eslint-plugin-react": "^7.10.0",
     "jest": "23.3.0",
+    "lottie-react-native": "^2.5.8",
+    "react-native-dropdownalert": "^3.5.0",
     "react-test-renderer": "16.4.1"
   },
   "jest": {
