@@ -2,7 +2,7 @@
   "name": "react-native-toolset",
   "version": "0.1.0",
   "description": "A collection of our basic react-native components",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
