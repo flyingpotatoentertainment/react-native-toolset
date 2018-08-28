@@ -34,6 +34,7 @@
     "jest": "23.3.0",
     "lottie-react-native": "^2.5.8",
     "react-native-dropdownalert": "^3.5.0",
+    "react-native-vector-icons": "^5.0.0",
     "react-test-renderer": "16.4.1"
   },
   "jest": {
