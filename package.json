@@ -2,7 +2,7 @@
   "name": "react-native-toolset",
   "version": "0.1.0",
   "description": "A collection of our basic react-native components",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,24 +23,24 @@
     "url": "https://github.com/moritzmorgenroth/react-native-toolset/issues"
   },
   "homepage": "https://github.com/moritzmorgenroth/react-native-toolset#readme",
-  "dependencies": {
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^7.0.0-beta.47",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^8.0.0",
+    "babel-preset-react-native": "^4.0.0"
+  },
+  "peerDependencies": {
     "apollo-boost": "^0.1.15",
-    "babel-eslint": "^8.2.5",
-    "babel-jest": "23.2.0",
-    "babel-plugin-graphql-tag": "^1.6.0",
-    "babel-preset-react-native": "^5.0.0",
-    "eslint": "^5.0.1",
-    "eslint-plugin-react": "^7.10.0",
-    "jest": "23.3.0",
-    "lottie-react-native": "^2.5.8",
     "react": "16.4.1",
     "react-apollo": "^2.1.9",
-    "react-native-dropdownalert": "^3.5.0",
-    "react-native-vector-icons": "^5.0.0",
-    "react-test-renderer": "16.4.1",
-    "react-native-platform-touchable": "^1.1.1",
     "react-native": "^0.56.0",
-    "react-native-firebase": "^4.3.8"
+    "react-native-dropdownalert": "^3.5.0",
+    "react-native-firebase": "^4.3.8",
+    "react-native-platform-touchable": "^1.1.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-test-renderer": "16.4.1"
   },
   "jest": {
     "preset": "react-native"
